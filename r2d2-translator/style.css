@@ -46,3 +46,37 @@ textarea {
   font-size: 0.9rem;
   opacity: 0.7;
 }
+
+/* Blinking light 💡 */
+.light {
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  margin: 1rem auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px yellow;
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out;
+}
+
+/* R2-D2 Animation 🛸 */
+.r2d2 {
+  font-size: 2.5rem;
+  animation: float 3s ease-in-out infinite;
+  margin-top: 1rem;
+}
+
+@keyframes float {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* C-3PO Complaints 🤖 */
+.c3po {
+  margin-top: 1rem;
+  color: #ffcc00;
+  font-weight: bold;
+  font-style: italic;
+  min-height: 24px;
+}
