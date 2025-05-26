@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>R2-D2 Morse Translator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🤖 R2-D2 Morse Translator</h1>
+
+    <textarea id="inputText" placeholder="Enter your message..."></textarea>
+
+    <div class="button-group">
+      <button onclick="encodeMessage()">Encode 🔐</button>
+      <button onclick="decodeMessage()">Decode 📡</button>
+      <button onclick="playBeep()">🔊 Beep It</button>
+      <button onclick="clearFields()">🧹 Clear</button>
+    </div>
+
+    <textarea id="outputText" placeholder="Translated Morse or Text..."></textarea>
+
+    <div id="light" class="light"></div>
+    <div id="r2d2" class="r2d2">🛸</div>
+    <div id="c3po" class="c3po"></div>
+
+    <p class="footer">This is the way. 🛸</p>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="morse-audio.js"></script>
+</body>
+</html>
