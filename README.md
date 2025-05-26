@@ -26,6 +26,8 @@ A fun and interactive web app that lets you convert text to Morse code and vice 
 4. Hit **Beep It** to hear and see the Morse output.
 5. Enjoy the animations and C-3PO's quirky remarks!
 
+## 📸 Demo
+https://xolanisyav04.github.io/MorseCode/
 
 ## 📜 License
 
